@@ -26,12 +26,15 @@ h2 {
   font-family: Roboto, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+}
+
 .bannner {
   position: relative;
   max-height: 500px;
 }
-
-
 
 .circle {
   position: absolute;
@@ -58,7 +61,21 @@ h2 {
   float: left;
 }
 
-.div {
-  position: absolute;
-  right: 500px;
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border: #333 3px solid;
+  margin: 0 0 1.5rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border: #333 solid;
 }
